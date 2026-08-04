@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Sistema_Copa_Universitaria {
 
 	// Scanner do sistema
