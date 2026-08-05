@@ -1,7 +1,7 @@
 # SistemaCafe
 Sistema de gerenciamento de pedidos para cafeterias desenvolvido em Java.  A aplicação permite o cadastro de itens do menu (cafés, pães de queijo, cookies), cálculo automático de descontos progressivos, doação opcional para ONG e processamento de pagamentos (Pix, Cartão ou Dinheiro com troco).
 
-# Funcionalidades
+## Funcionalidades
 - **Cardápio Interativo:** Seleção de Café Expresso, Cappuccino, Pão de Queijo e Cookies.
 - **Regras de Negócio:**
   - Desconto de R$ 2,00 por cada cookie além da 3º unidade.
@@ -10,4 +10,7 @@ Sistema de gerenciamento de pedidos para cafeterias desenvolvido em Java.  A apl
 - **Pagamentos:** Suporte a Pix, Cartão e Dinheiro (com cálculo automático de troco).
 - **Relatório Final:** Exibe o total arrecadado, quantidade de pedidos e média de doações realizadas
 
+## Tecnologias utilizadas
+- **Java SE**
+- **Entrada via Console**
 
