@@ -1,1 +1,0 @@
-# Explicao do codigo
