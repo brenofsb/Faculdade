@@ -12,8 +12,7 @@ Sistema de gerenciamento de pedidos para cafeterias desenvolvido em Java.  A apl
 
 ## Tecnologias utilizadas
 - **Java**
-- **Estruturas condicionais (if, switch)**
-- **Estruturas de repetição (while, do-while)**
+- **Estruturas de repetição e condicionais**
 - **Variáveis e operadores aritméticos**
 - **Entrada de dados com Scanner**
 - **Aplicação Console (CLI)**
