@@ -11,6 +11,10 @@ Sistema de gerenciamento de pedidos para cafeterias desenvolvido em Java.  A apl
 - **Relatório Final:** Exibe o total arrecadado, quantidade de pedidos e média de doações realizadas
 
 ## Tecnologias utilizadas
-- **Java SE**
-- **Entrada via Console**
+- **Java**
+- **Estruturas condicionais (if, switch)**
+- **Estruturas de repetição (while, do-while)**
+- **Variáveis e operadores aritméticos**
+- **Entrada de dados com Scanner**
+- **Aplicação Console (CLI)**
 
