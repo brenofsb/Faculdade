@@ -6,8 +6,7 @@ Organização por semestre > disciplina > tipo de atividade:
 ```
 1-semestre/
 └── LPA/
-    ├── atividades-individuais/   → exercícios feitos sozinho
-    └── atividades-em-dupla/      → atividades feitas em dupla em sala
+    └── atividades-individuais/   → exercícios feitos sozinho
 2-semestre/
 └── (em andamento)
 ```
