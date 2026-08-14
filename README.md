@@ -5,10 +5,8 @@ Repositório com as atividades, exercícios e projetos desenvolvidos ao longo do
 Organização por semestre > disciplina > tipo de atividade:
 ```
 1-semestre/
-├── LPA/
-│    └── atividades-individuais/   → exercícios feitos sozinho
-└── RL/
-    └── atividades-em-dupla/ → exercícios feitos em dupla
+└── LPA/
+    └── atividades-individuais/   → exercícios feitos sozinho
 2-semestre/
 └── (em andamento)
 ```
