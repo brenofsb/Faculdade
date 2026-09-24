@@ -58,5 +58,7 @@ public class Caixa_de_mercado
 
 		System.out.println("O valor total da compra ficou por: R$ " + vCompra);
 
+		input.close();
+
 	}
 }

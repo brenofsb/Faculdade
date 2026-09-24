@@ -24,5 +24,7 @@ public class Cofre_Simples
 			System.out.println("Acesso concedido!");
 		}
 
+		input.close();
+
 	}
 }

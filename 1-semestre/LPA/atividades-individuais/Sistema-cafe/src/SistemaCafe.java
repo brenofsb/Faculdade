@@ -25,61 +25,61 @@ public class SistemaCafe {
 
 			do {
 				System.out.println("\nQual item do menu voce prefere:\n" +
-				                   "1- Cafe expresso - R$ 6,00\n" +
-				                   "2- Cappucino - R$ 9,00\n" +
-				                   "3- Pao de queijo - R$ 5,00\n" +
-				                   "4- Cookie - R$ 12,00\n" +
-				                   "0- Finalizar pedido");
+						"1- Cafe expresso - R$ 6,00\n" +
+						"2- Cappucino - R$ 9,00\n" +
+						"3- Pao de queijo - R$ 5,00\n" +
+						"4- Cookie - R$ 12,00\n" +
+						"0- Finalizar pedido");
 				opcao = input.nextInt();
 
 				switch (opcao) {
-				case 1:
-					System.out.println("\nQuantos cafes expresso voce deseja?");
-					qnt = input.nextInt();
+					case 1:
+						System.out.println("\nQuantos cafes expresso voce deseja?");
+						qnt = input.nextInt();
 
-					if (qnt > 0) {
-						precoPedido = precoPedido + (6 * qnt);
-					} else {
-						System.out.println("Quantidade invalida!");
-					}
-					break;
-				case 2:
-					System.out.println("\nQuantos cappucinos voce deseja?");
-					qnt = input.nextInt();
+						if (qnt > 0) {
+							precoPedido = precoPedido + (6 * qnt);
+						} else {
+							System.out.println("Quantidade invalida!");
+						}
+						break;
+					case 2:
+						System.out.println("\nQuantos cappucinos voce deseja?");
+						qnt = input.nextInt();
 
-					if (qnt > 0) {
-						precoPedido = precoPedido + (9 * qnt);
-					} else {
-						System.out.println("Quantidade invalida!");
-					}
-					break;
-				case 3:
-					System.out.println("\nQuantos paes de queijo voce deseja?");
-					qnt = input.nextInt();
-					if (qnt > 0) {
-						precoPedido = precoPedido + (5 * qnt);
-					} else {
-						System.out.println("Quantidade invalida!");
-					}
-					break;
-				case 4:
-					System.out.println("\nQuantos cookies voce deseja?");
-					qnt = input.nextInt();
-					if (qnt > 0) {
-						precoPedido = precoPedido + (12 * qnt);
-						cookie = cookie + qnt;
-					} else {
-						System.out.println("Quantidade invalida!");
-					}
-					break;
-				case 0:
-					if (precoPedido == 0) {
-						System.out.println("\nPedido vazio! Adicione pelo menos um item ao pedido.");
-					}
-					break;
-				default:
-					System.out.println("\nOpcao invalida, tente novamente.\n");
-					break;
+						if (qnt > 0) {
+							precoPedido = precoPedido + (9 * qnt);
+						} else {
+							System.out.println("Quantidade invalida!");
+						}
+						break;
+					case 3:
+						System.out.println("\nQuantos paes de queijo voce deseja?");
+						qnt = input.nextInt();
+						if (qnt > 0) {
+							precoPedido = precoPedido + (5 * qnt);
+						} else {
+							System.out.println("Quantidade invalida!");
+						}
+						break;
+					case 4:
+						System.out.println("\nQuantos cookies voce deseja?");
+						qnt = input.nextInt();
+						if (qnt > 0) {
+							precoPedido = precoPedido + (12 * qnt);
+							cookie = cookie + qnt;
+						} else {
+							System.out.println("Quantidade invalida!");
+						}
+						break;
+					case 0:
+						if (precoPedido == 0) {
+							System.out.println("\nPedido vazio! Adicione pelo menos um item ao pedido.");
+						}
+						break;
+					default:
+						System.out.println("\nOpcao invalida, tente novamente.\n");
+						break;
 				}
 
 			} while (opcao != 0);
@@ -95,11 +95,11 @@ public class SistemaCafe {
 			}
 
 			System.out.println("\nO preco ficou por: R$ " + precoPedido +
-			                   "\nNome do cliente: " + cliente);
+					"\nNome do cliente: " + cliente);
 
 			System.out.println("\nDeseja doar 2% para a ONG Zero Fome?" +
-			                   "\n1- Sim" +
-			                   "\n2- Nao");
+					"\n1- Sim" +
+					"\n2- Nao");
 			opcao = input.nextInt();
 
 			if (opcao == 1) {
@@ -110,34 +110,34 @@ public class SistemaCafe {
 			}
 
 			System.out.println("\n===== FORMA DE PAGAMENTO =====\n" +
-			                   "1- Pix\n" +
-			                   "2- Cartao\n" +
-			                   "3- Dinheiro\n");
+					"1- Pix\n" +
+					"2- Cartao\n" +
+					"3- Dinheiro\n");
 			pagamento = input.nextInt();
 			venConcl = false;
 
 			while (!venConcl) {
 				switch (pagamento) {
-				case 1:
-				case 2:
-					venConcl = true;
-					break;
-				case 3:
-					System.out.println("Valor entregue pelo cliente: R$ ");
-					valorPago = input.nextDouble();
-
-					if (valorPago >= precoPedido) {
-						troco = valorPago - precoPedido;
-						System.out.println("Troco do cliente: R$ " + troco);
+					case 1:
+					case 2:
 						venConcl = true;
-					} else {
-						System.out.println("Dinheiro insuficiente! Falta R$ " + (precoPedido - valorPago ) +
-						                   "\nTente novamente ou use outra forma de pagamento.");
-					}
-					break;
-				default:
-					System.out.println("Forma de pagamento invalida!");
-					pagamento = input.nextInt();
+						break;
+					case 3:
+						System.out.println("Valor entregue pelo cliente: R$ ");
+						valorPago = input.nextDouble();
+
+						if (valorPago >= precoPedido) {
+							troco = valorPago - precoPedido;
+							System.out.println("Troco do cliente: R$ " + troco);
+							venConcl = true;
+						} else {
+							System.out.println("Dinheiro insuficiente! Falta R$ " + (precoPedido - valorPago) +
+									"\nTente novamente ou use outra forma de pagamento.");
+						}
+						break;
+					default:
+						System.out.println("Forma de pagamento invalida!");
+						pagamento = input.nextInt();
 				}
 			}
 
@@ -145,8 +145,8 @@ public class SistemaCafe {
 			totalPedidos += precoPedido;
 
 			System.out.println("\nDeseja fazer outro pedido?\n" +
-			                   "1- Sim\n" +
-			                   "2- Nao");
+					"1- Sim\n" +
+					"2- Nao");
 			opcao = input.nextInt();
 
 			pedido++;
@@ -158,8 +158,8 @@ public class SistemaCafe {
 		}
 
 		System.out.println("\n===== RELATORIO FINAL =====\n" +
-		                   "Total arrecadado: R$ " + totalPedidos +
-		                   "\nQuantidade de pedidos: " + pedido);
+				"Total arrecadado: R$ " + totalPedidos +
+				"\nQuantidade de pedidos: " + pedido);
 
 		if (pedido > 0) {
 			mediaDoacao = (ongTotal / pedido);
@@ -167,6 +167,8 @@ public class SistemaCafe {
 		} else {
 			System.out.println("Nenhuma doacao realizada.");
 		}
+
+		input.close();
 
 	}
 

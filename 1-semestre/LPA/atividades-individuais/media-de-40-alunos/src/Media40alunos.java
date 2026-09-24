@@ -37,5 +37,7 @@ public class Media40alunos {
 			}
 
 		}
+
+		input.close();
 	}
 }
