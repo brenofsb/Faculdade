@@ -10,7 +10,14 @@ public class Caixa_de_mercado
 		double vProduto, vCompra = 0;
 
 		do {
+			System.out.println(
+				"===Códigos dos produtos===\n"+
+				"1, 2, 3, 4: Alimento perecível\n"+
+				"5, 6: Vestuário\n"+
+				"7: Higiene pessoal\n"
+			);
 			System.out.print("Digite o código do " + i + "° produto ou 0 para encerrar: ");
+			
 			codProduto = input.nextInt();
 
 			switch (codProduto) {
@@ -28,10 +35,6 @@ public class Caixa_de_mercado
 			default:
 				System.out.println("Código inválido, portanto não tem categoria.");
 				break;
-			}
-			
-			if (codProduto == 0) {
-			    break;
 			}
 			
 			if (codProduto <= 4 && codProduto > 0) {
@@ -56,8 +59,11 @@ public class Caixa_de_mercado
 
 		} while (codProduto != 0);
 
-		System.out.println("O valor total da compra ficou por: R$ " + vCompra);
-
+		if (vCompra == 0) {
+			System.out.println("Compra cancelada");
+		} else {
+			System.out.println("O valor total da compra ficou: R$ " + vCompra);
+		}
 		input.close();
 
 	}

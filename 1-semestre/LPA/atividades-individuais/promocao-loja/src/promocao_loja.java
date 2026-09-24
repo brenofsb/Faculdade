@@ -8,7 +8,7 @@ public class promocao_loja {
 		String categoria;
 		double vTotal = 300;
 
-		System.out.println("Qual a sua categoria?");
+		System.out.println("Qual é a sua categoria?");
 		categoria = input.next().toUpperCase();
 
 		switch (categoria) {

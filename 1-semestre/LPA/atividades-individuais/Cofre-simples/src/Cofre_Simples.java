@@ -8,11 +8,11 @@ public class Cofre_Simples
 
 		int senha = 0;
 
-		System.out.println("Qual e a senha do cofre");
+		System.out.println("Qual é a senha do cofre?");
 		int senhareal = input.nextInt();
 
 		while (senha != senhareal) {
-            System.out.println("Digite a senha do cofre");
+            System.out.print("Digite a senha do cofre: ");
             senha = input.nextInt();
     
 			if (senha != senhareal) {
