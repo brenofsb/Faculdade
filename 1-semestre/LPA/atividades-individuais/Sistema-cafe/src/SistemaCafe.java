@@ -36,7 +36,7 @@ public class SistemaCafe {
 
 				switch (opcao) {
 					case 1:
-						System.out.println("\nQuantos cafes expresso voce deseja?");
+						System.out.print("\nQuantos cafés expressos voce deseja? ");
 						qnt = input.nextInt();
 
 						if (qnt > 0) {
@@ -46,7 +46,7 @@ public class SistemaCafe {
 						}
 						break;
 					case 2:
-						System.out.println("\nQuantos cappucinos voce deseja?");
+						System.out.print("\nQuantos cappucinos voce deseja? ");
 						qnt = input.nextInt();
 
 						if (qnt > 0) {
@@ -56,7 +56,7 @@ public class SistemaCafe {
 						}
 						break;
 					case 3:
-						System.out.println("\nQuantos paes de queijo voce deseja?");
+						System.out.print("\nQuantos paes de queijo voce deseja? ");
 						qnt = input.nextInt();
 						if (qnt > 0) {
 							precoPedido = precoPedido + (5 * qnt);
@@ -65,7 +65,7 @@ public class SistemaCafe {
 						}
 						break;
 					case 4:
-						System.out.println("\nQuantos cookies voce deseja?");
+						System.out.print("\nQuantos cookies voce deseja? ");
 						qnt = input.nextInt();
 						if (qnt > 0) {
 							precoPedido = precoPedido + (12 * qnt);
@@ -107,22 +107,28 @@ public class SistemaCafe {
 				System.out.println("\nO preco ficou por: R$ " + precoPedido +
 						"\nNome do cliente: " + cliente);
 
-				System.out.println("\nDeseja doar 2% para a ONG Zero Fome?" +
-						"\n1- Sim" +
-						"\n2- Nao");
+				System.out.print(
+					"\nDeseja doar 2% para a ONG Zero Fome?\n" +
+						"1- Sim\n" +
+						"2- Nao\n\n" +
+						": "
+				);
 				opcao = input.nextInt();
 
 				if (opcao == 1) {
 					ong = precoPedido * 0.02;
 					precoPedido += ong;
 					ongTotal += ong;
-					System.out.printf("Doação de: R$ %.2f%n adicionada", ong);
+					System.out.printf("Doação de: R$ %.2f adicionada%n", ong);
 				}
 
-				System.out.println("\n===== FORMA DE PAGAMENTO =====\n" +
+				System.out.print(
+					"\n===== FORMA DE PAGAMENTO =====\n" +
 						"1- Pix\n" +
 						"2- Cartao\n" +
-						"3- Dinheiro\n");
+						"3- Dinheiro\n\n" +
+						": "
+				);
 				pagamento = input.nextInt();
 				venConcl = false;
 
@@ -134,7 +140,7 @@ public class SistemaCafe {
 							break;
 						case 3:
 							System.out.printf("Valor do pedido: R$ %.2f%n", precoPedido);
-							System.out.println("Valor entregue pelo cliente: R$ ");
+							System.out.print("Valor entregue pelo cliente: R$ ");
 							valorPago = input.nextDouble();
 
 							if (valorPago >= precoPedido) {
