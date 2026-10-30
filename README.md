@@ -18,7 +18,7 @@
 - [POO](./2-semestre/POO)
   - [Simulador_tv](./2-semestre/POO/atividades-individuais/simulador_tv)
 - [DFE](./2-semestre/DFE)
-  - [index](./2-semestre/DFE/atividades-individuais/menu%20de%20carnes)
+  - [menu_de_carnes](./2-semestre/DFE/atividades-individuais/menu_de_carnes)
   - [meu_site](./2-semestre/DFE/atividades-individuais/meu_site)
   - [minhas_favoritas](./2-semestre/DFE/atividades-individuais/minhas_favoritas)
 
