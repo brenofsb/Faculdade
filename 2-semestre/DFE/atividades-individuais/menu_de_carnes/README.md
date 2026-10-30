@@ -22,10 +22,10 @@ Exibir uma lista de opções de carnes em um layout básico de página web.
 ## Como rodar
 1. Acesse a pasta do projeto:
    ```bash
-   cd 2-semestre/DFE/atividades-individuais/"menu de carnes"
+   cd 2-semestre/DFE/atividades-individuais/menu_de_carnes
    ```
-2. Abra o arquivo `src/index.html` em um navegador.
+2. Abra o arquivo `src/menu_de_carnes.html` em um navegador.
 
 ## Arquivo principal
-- [src/index.html](./src/index.html)
+- [src/menu_de_carnes.html](./src/menu_de_carnes.html)
 - [src/style.css](./src/style.css)
