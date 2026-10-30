@@ -7,7 +7,7 @@
 A disciplina de DFE foi trabalhada com desenvolvimento web básico, abordando HTML, CSS e estrutura de páginas estáticas, com foco em layout, navegação e apresentação visual.
 
 ## Navegação
-- [index](./atividades-individuais/menu%20de%20carnes)
+- [menu_de_carnes](./atividades-individuais/menu_de_carnes)
 - [meu_site](./atividades-individuais/meu_site)
 - [minhas_favoritas](./atividades-individuais/minhas_favoritas)
 

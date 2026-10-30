@@ -37,7 +37,7 @@ Faculdade/
 ├── 2-semestre/
 │   ├── DFE/
 │   │   └── atividades-individuais/
-│   │       ├── menu de carnes/
+│   │       ├── menu_de_carnes/
 │   │       ├── meu_site/
 │   │       └── minhas_favoritas/
 │   └── POO/
