@@ -1,20 +1,43 @@
-# Media_40_alunos
-Sistema simples de cálculo de médias escolares desenvolvido em **Java**. A aplicação permite registrar três notas de cada aluno, calcular a média final, informar a situação acadêmica e acumular os resultados da turma.
+# Media40alunos
+
+**Disciplina:** LPA - Lógica de Programação  
+**Última atualização:** 2026-09-24
+
+## Visão geral
+Sistema simples em Java para registrar notas de alunos, calcular a média final e classificar a situação acadêmica de cada estudante.
+
+## Objetivo
+Acompanhar o desempenho da turma com base em médias e indicadores de aprovação, recuperação e reprovação.
 
 ## Funcionalidades
-- **Cadastro de Notas:** Permite inserir três notas para cada aluno.
-- **Cálculo da Média Final:** Calcula automaticamente a média aritmética das três notas.
-- **Exibição da Média:** Mostra a média final de cada aluno.
-- **Classificação da Situação:**
-  - **Aprovado:** média maior ou igual a 6.
-  - **Recuperação:** média menor ou igual a 4.
-  - **Reprovado:** médias entre 4 e 6.
-- **Contagem de Aprovados:** Registra quantos alunos foram aprovados.
-- **Acúmulo das Médias:** Soma as médias de todos os alunos para uso em cálculos gerais da turma.
+- Cadastro de três notas por aluno
+- Cálculo da média final
+- Classificação por situação:
+  - aprovado
+  - recuperação
+  - reprovado
+- Contagem de alunos aprovados
+- Acumulação de médias para análise da turma
 
-## Tecnologias utilizadas
+## Tecnologias
 - Java
-- Estruturas de repetição e condicionais
-- Variáveis e operadores aritméticos
-- Entrada de dados com Scanner
-- Aplicação Console (CLI)
+- `Scanner`
+- Estruturas condicionais
+- Estruturas de repetição
+
+## Como rodar
+1. Acesse a pasta do projeto:
+   ```bash
+   cd 1-semestre/LPA/atividades-individuais/media-de-40-alunos
+   ```
+2. Compile o programa:
+   ```bash
+   javac src/Media40alunos.java
+   ```
+3. Execute:
+   ```bash
+   java -cp src Media40alunos
+   ```
+
+## Arquivo principal
+- [src/Media40alunos.java](./src/Media40alunos.java)

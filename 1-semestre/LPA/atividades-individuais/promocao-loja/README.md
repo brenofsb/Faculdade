@@ -1,17 +1,44 @@
-# Promocao_loja
-Sistema de aplicação de descontos desenvolvido em Java. A aplicação simula um sistema simples de promoção de uma loja, onde o usuário informa sua categoria de cliente e o programa calcula automaticamente o valor final da compra aplicando o desconto correspondente.
+# promocao_loja
+
+**Disciplina:** LPA - Lógica de Programação  
+**Última atualização:** 2026-09-24
+
+## Visão geral
+Sistema em Java que simula uma promoção de loja. O usuário informa a categoria do cliente e o programa aplica o desconto correspondente ao valor da compra.
+
+## Objetivo
+Calcular o valor final de uma compra com base na categoria do cliente.
 
 ## Funcionalidades
-- **Identificação de Categoria:** Permite que o usuário informe sua categoria de cliente para definir desconto aplicado.
-- **Sistema de Descontos Automático:** Aplicação de descontos conforme a categoria selecionada:
-  - Categoria **VIP**: desconto de 20%.
-  - Categoria **COMUM**: desconto de 10%.
-  - Categoria **NOVO**: desconto de 5%.
-- **Cálculo do Valor Final:** Realiza automaticamente o cálculo da compra após a aplicação do desconto.
-- **Exibição do Resultado:** Mostra ao usuário o valor final da compra com o desconto aplicado.
+- Identificação da categoria do cliente
+- Aplicação automática de desconto
+- Cálculo do valor final
+- Exibição do valor com desconto
 
-## Tecnologias utilizadas
-- **Java**
-- **Scanner** para entrada de dados
-- **Switch Case** para controle das categorias
-- Operações matemáticas com valores double
+## Regras de desconto
+- `VIP`: 20%
+- `COMUM`: 10%
+- `NOVO`: 5%
+
+## Tecnologias
+- Java
+- `Scanner`
+- `switch` para controle de fluxo
+- Operações matemáticas
+
+## Como rodar
+1. Acesse a pasta do projeto:
+   ```bash
+   cd 1-semestre/LPA/atividades-individuais/promocao-loja
+   ```
+2. Compile o programa:
+   ```bash
+   javac src/promocao_loja.java
+   ```
+3. Execute:
+   ```bash
+   java -cp src promocao_loja
+   ```
+
+## Arquivo principal
+- [src/promocao_loja.java](./src/promocao_loja.java)

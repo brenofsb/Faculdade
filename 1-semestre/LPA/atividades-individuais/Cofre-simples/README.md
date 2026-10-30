@@ -1,15 +1,40 @@
 # Cofre_Simples
-Sistema simples de autenticação desenvolvido em Java. A aplicação simula o funcionamento de um cofre digital, permitindo definir uma senha inicial e solicitar tentativas de acesso até que a senha correta seja informada.
+
+**Disciplina:** LPA - Lógica de Programação  
+**Última atualização:** 2026-09-24
+
+## Visão geral
+Sistema simples de autenticação em Java que simula um cofre digital. O usuário informa a senha correta e o programa repete as tentativas até liberar o acesso.
+
+## Objetivo
+Validar tentativas de acesso e permitir a abertura do cofre somente quando a senha correta for informada.
 
 ## Funcionalidades
-- **Definição da senha do cofre:** O usuário escolhe a senha inicial do sistema.
-- **Tentativas de acesso:** O programa solicita repetidamente a senha para abrir o cofre.
-- **Validação da senha:** Verifica se a senha digitada corresponde à senha cadastrada.
-- **Mensagem de erro:** Exibe aviso quando a senha está incorreta.
-- **Acesso liberado:** Permite a abertura do cofre quando a senha correta é informada.
+- Definição da senha do cofre
+- Solicitação de senha em loop
+- Verificação de senha digitada
+- Mensagem de erro para senhas incorretas
+- Liberação de acesso com sucesso
 
-## Tecnologias utilizadas
+## Tecnologias
 - Java
-- Estruturas de repetição e condicionais
-- Entrada de dados com Scanner
-- Aplicação Console (CLI)
+- `Scanner`
+- Estruturas condicionais
+- Estruturas de repetição
+
+## Como rodar
+1. Acesse a pasta do projeto:
+   ```bash
+   cd 1-semestre/LPA/atividades-individuais/Cofre-simples
+   ```
+2. Compile o programa:
+   ```bash
+   javac src/Cofre_Simples.java
+   ```
+3. Execute:
+   ```bash
+   java -cp src Cofre_Simples
+   ```
+
+## Arquivo principal
+- [src/Cofre_Simples.java](./src/Cofre_Simples.java)
