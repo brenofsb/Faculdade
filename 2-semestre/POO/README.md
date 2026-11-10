@@ -8,6 +8,7 @@ A disciplina de POO foi trabalhada com conceitos fundamentais da programação o
 
 ## Navegação
 - [Simulador_tv](./atividades-individuais/simulador_tv)
+- [SmartTV](./atividades-individuais/smartTV)
 
 ## Aprendizados principais
 - Modelagem orientada a objetos
@@ -15,4 +16,3 @@ A disciplina de POO foi trabalhada com conceitos fundamentais da programação o
 - Organização de código em métodos
 - Manipulação de estados e lógica de controle
 - Estruturas de dados e fluxo de execução
-
